@@ -1,0 +1,35 @@
+---
+recipe:           Awesome Recipe
+amount:           3 cups
+servings:         4-6
+date:             #TODO insert_way_to_add_current_date
+source:           Aunt
+source_url:       http://www.google.com
+prep_time:        5  #TODO defaults to minutes? (for conversion later)
+cook_time:        30 #TODO defaults to minutes? (for conversion later)
+bake_temp:        350 F #TODO number then unit (defaults to C?)
+broiler:          no
+stove_top:        medium
+calories:         300
+nutritional_info: # not sure if in best format
+allergens:        [peanuts] #TODO should somehow link to what's in the ingredients list and a database of allergens
+difficulty:       3 #TODO out of 5
+rating:           5 #TODO out of 5
+made_before:      no
+photo:            (base-64 encoded image)
+favorite:         yes
+categories:       [Dinner, Holiday]
+tags:             [] #TODO may be redundant with categories
+notes: |
+  My mother's favorite!
+ingredients: #TODO not sure on the best way to differentiate ingredients and their different amounts
+  1 lb     | meat
+  1 1/2 lb | vegetables
+  2 tbsp   | olive oil
+  1/4 tsp  | pepper
+  to taste | salt
+directions: #TODO should be in list form, by step
+  - Mix.
+  - Cook.
+  - Eat.
+...
